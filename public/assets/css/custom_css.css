@@ -1,0 +1,463 @@
+
+#core_values{
+				display: block;
+				padding-bottom: 50px;
+				text-align: center;
+			}
+.core_values_container{
+						margin-left: 0px;
+						margin-right: 20px;
+					       
+                        margin-top: 30px;
+					  }
+.left_Span {
+    width:270px;
+    display:block;
+    float: left;
+    margin-left: 30px;
+}
+.right_Span {
+    width:270px;
+    display:block;
+    float: left;
+    margin-left: 30px;
+}
+.span_img{
+	display: block;
+
+}
+#img_span{
+	width: 70px;
+	height: 70px;
+	margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-left: auto;
+  border-radius: 50%;
+  transition: transform .4s;
+}
+#img_span:hover{
+  -ms-transform: scale(2.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
+  transform: scale(2.5);
+}
+.span_title{
+	display: block;
+    line-height: 24px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-bottom: 8px;
+    color: #313131;
+}
+.core_values_row{
+	margin-left: 30px;
+}
+#img_testimonial{
+	height: 125px;
+	width: 125px;
+    border-radius: 50%;
+}
+.div_testimonial_img {
+    float: left;
+    width: 125px;
+                height: 125px;
+
+}
+
+/* Next & previous buttons */
+.testimonialprev, .testimonialnext {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+/*    color: white;*/
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.testimonialnext {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.testimonialprev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.testimonialprev:hover, .testimonialnext:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+
+#img_clients{
+    /*width: 100%;*/
+    margin-top: 30px;
+     object-fit: contain; 
+}
+#img_logo_footer{
+    height: 100px;
+    width: 150px;
+}
+
+.productsandservicescontainer {
+clear: both;
+  padding: 0px;
+  margin: 0px;
+overflow:hidden;
+}
+
+
+/*.productsandservicescol > img {
+    float: left;
+}*/
+
+#img_productsandservices{
+    float: left;
+    max-width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+  .productsandservicesspan_1_of_3 {
+    width: 32.2%;
+  }
+}
+ .productsandservicescol {
+    display: block;
+    float: left;
+    height: 326px;
+    /*margin: 1% 0 1% 1.6%;*/
+        margin: 2% 0 2% 1.6%;
+    position: relative;
+
+  }
+
+ .productsandservicescol:first-child {
+    margin-left: 0;
+  }
+
+.centered {
+  position: absolute;
+  color: white;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.iconcentered {
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#icon_productsandservices{
+    height: 70px;
+    width: 70px;
+}
+
+.GD_img_description {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.productsandservicescol:hover .GD_img_description {
+  visibility: visible;
+  opacity: 1;
+}
+.productsandservicescol:hover #img_productsandservices{
+  visibility: hidden;
+}
+
+
+#inspiration, #messagefromfounders{
+    width:46%;
+    height:200px;
+    margin-left:30px;
+    float:left;
+    position: relative;
+}
+.child_div_1{
+    float:left;
+    margin-right:5px;
+    width: 40%;
+    height: 100%;
+}
+@media screen and (max-width:650px){
+    #inspiration, #messagefromfounders{
+    width:100%;
+    height:250px;
+    margin-left:0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.productsandservicescol {
+    width: 100%;
+    text-align: center;
+    }
+    .productsandservicescol:first-child {
+   margin: 1% 0 1% 1.6%;
+  }
+  .left_Span {
+    width:100%;
+    display:block;
+    float: left;
+    margin-left: 0px;
+}
+.right_Span {
+    width:100%;
+    display:block;
+    float: left;
+    margin-left: 0px;
+}
+#productspagepictures{
+    width: 100%;
+}
+#productspagetext{
+    width: 100%;
+}
+.one_third{
+  width: 100%;
+}
+.one_half{
+  width: 100%;
+}
+}
+
+
+#slide{
+    width:100%;
+    }
+    
+* {
+    box-sizing: border-box
+}
+
+.homepageSlides {
+    display: none
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: -10px;
+
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.homepageslideractive, .dot:hover {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+#productsbuybutton{
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+#btn_buy_products_page{
+    width: 100%;
+}
+
+
+/* .invalid class prevents CSS from automatically applying */
+.invalid input:required:invalid {
+  background: #BE4C54;
+}
+
+/* Mark valid inputs during .invalid state */
+.invalid input:required:valid {
+  background: #17D654;
+}
+
+.container{
+  padding-top: 20px;
+}
+.btmspace-30{
+  margin-bottom: 30px;
+}
+#breadcrumb{
+  padding: 40px 0 15px;
+/*  color: black;*/
+}
+.newsletterlabel {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  /*  font-size: 15px;*/
+    color: #333;
+   /* height: 20px;*/
+  /*  width: 60%;*/
+  /*  margin-top: 10px;*/
+/*    margin-left: 10px;*/
+ /*   text-align: left;*/
+/*    margin-right:15px;*/
+    float:left;
+}
+.newsletterinput {
+/*    height: 20px;
+/*    width: 40%;*/
+    border: 1px solid #000;
+ /*   margin-top: 10px;*/
+}
+input[type=submit] {
+  background-color: #C5A059;
+  margin-top: 10px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #784212;
+}
+input[type="reset"]:hover{
+  background-color: #784212;
+  color: white;
+}
+.orderbtn{
+  background-color: #C5A059;
+  margin-top: 10px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.orderbtn:hover {
+  background-color: #784212;
+}
+
+.productsdescription{
+     font-family: Georgia, "Times New Roman", Times, serif;
+     color: #333;
+     text-align: justify;
+     font-size: 16px;
+     text-indent: 50px;
+     letter-spacing: 2px;
+
+}
+#productspagegraphics, #productspageanimation, #productspageSEO, #productspagebranding, #productspageSMadmin, #productspagemobiledesign, #productspagewebdesign{
+  height: 300px;
+}
+#productspagepictures{
+  height: 100%
+}
+#invisible{
+  display: none;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+filter: invert(100%);
+}
+.linkbutton {
+background-color: #C5A059;
+border: none;
+color: white;
+padding: 20px 34px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+cursor: pointer;
+position: absolute; 
+top: 70%; 
+left: 40%;
+border-radius: 12px;
+}
+.linkbutton:hover{
+background-color: #784212;
+}
+/*#footer{
+  background-color: #C5A059;
+}
+*/
