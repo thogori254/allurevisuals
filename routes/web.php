@@ -37,7 +37,6 @@ Route::post('/products', 'OrderFormController@storeform');
 // 	return redirect('/');
 // });
 
-// Route
 
 Route::get('contact', 'EnquiryFormController@createform');
 
